@@ -34,3 +34,7 @@ $ git clone https://github.com/jojo2406/API-Qualite-EAU-77.git
 Créer un entrepôt de données sous Geoserver dans l’objectif de diffuser les données précédemment 
 stockées dans la base de données Postgis via des flux (WMS, WFS, ...) via l’interface 
 d’administration web de Geoserver.
+
+| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
+|:--------------|:-------------:|--------------:|
+| text-align left | text-align center | text-align right |
