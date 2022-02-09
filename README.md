@@ -5,6 +5,7 @@ visualiser sous forme de cartographie dynamique les résultats de mesure de pré
 ainsi que de son principal produit de dégradation, l’AMPA, dans les cours d’eau du département de Seine-et-Marne (77).
 
 ## Sommaire
+***
 1. [Tuto GitHub](#tuto-github)
 2. [Tuto Geoserver](#tuto-geoserver)
 
@@ -13,14 +14,14 @@ ainsi que de son principal produit de dégradation, l’AMPA, dans les cours d�
 #### Objectif du GitHub :
 GitHub est une plate-forme d'hébergement de code pour le contrôle de version et la collaboration entre membres d'une équipe.
 Cela nous permet de tous ensemble nous partager les modifications de données, de fichiers et de les mettre à jour sur un serveur, ici GitHub.
+Mais pour pouvoir pousser de nouvelles modifications de nos fichiers locaux sur des dépôts à distants sur GitHub, il est préférable d'utiliser une invite de commande
+grâce à linstallation rapide de Git(Bash) sur l'ordinateur.
 
-#### Installation
+#### Export des fichiers de GitHub via un serveur local par Git
 Une petite intorduction pour l'installation. 
 ```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
+$ cd desktop
+$ git clone https://github.com/jojo2406/API-Qualite-EAU-77.git
 ```
 
 
