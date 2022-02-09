@@ -14,3 +14,11 @@ GitHub est une plate-forme d'hébergement de code pour le contrôle de version e
 Créer un entrepôt de données sous Geoserver dans l’objectif de diffuser les données précédemment 
 stockées dans la base de données Postgis via des flux (WMS, WFS, ...) via l’interface 
 d’administration web de Geoserver.
+
+
+## Table of Contents
+1. [General Info](#general-info)
+2. [Technologies](#technologies)
+3. [Installation](#installation)
+4. [Collaboration](#collaboration)
+5. [FAQs](#faqs)
