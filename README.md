@@ -18,13 +18,13 @@ Mais pour pouvoir pousser de nouvelles modifications de nos fichiers locaux sur 
 grâce à linstallation rapide de Git(Bash) sur l'ordinateur.
 
 #### Export des fichiers de GitHub via un serveur local par Git
-Une petite intorduction pour l'installation. 
+Une petite intorduction pour l'installation de Git via ce lien ci-dessous. 
+* [Git - Downloading Package](http://git-scm.com/downloads): Version 2.35.1
+Et voici une commande pour copier un dépôt distant sur un serveur local.
 ```
 $ cd desktop
 $ git clone https://github.com/jojo2406/API-Qualite-EAU-77.git
 ```
-
-* [Technologie name](https://example.com): Version 12.3 
 
 
 ## Tuto Geoserver
