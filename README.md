@@ -26,13 +26,6 @@ Et voici une commande pour copier un dépôt distant sur un serveur local.
 $ cd desktop
 $ git clone https://github.com/jojo2406/API-Qualite-EAU-77.git
 ```
-1. **This is a question in bold**
-Answer of the first question with _italic words_.
-2. __Second question in bold__ 
-To answer this question we use an unordered list:
-* First point
-* Second Point
-* Third point
 
 ## Tuto Geoserver
 ***
