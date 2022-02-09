@@ -3,6 +3,9 @@ L'objectif du projet est d'exploiter les données de l’API Qualité des cours 
 visualiser sous forme de cartographie dynamique les résultats de mesure de présence d’un pesticide, le glyphosate, 
 ainsi que de son principal produit de dégradation, l’AMPA, dans les cours d’eau du département de Seine-et-Marne (77).
 
+## Table of Contents
+1. [Tuto GitHub](#tuto-github)
+2. [Tuto Geoserver](#tuto-geoserver)
 
 ## Tuto GitHub
 ### Objectif du GitHub :
@@ -14,11 +17,3 @@ GitHub est une plate-forme d'hébergement de code pour le contrôle de version e
 Créer un entrepôt de données sous Geoserver dans l’objectif de diffuser les données précédemment 
 stockées dans la base de données Postgis via des flux (WMS, WFS, ...) via l’interface 
 d’administration web de Geoserver.
-
-
-## Table of Contents
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
