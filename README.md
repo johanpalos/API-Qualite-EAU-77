@@ -9,13 +9,13 @@ ainsi que de son principal produit de dégradation, l’AMPA, dans les cours d�
 2. [Tuto Geoserver](#tuto-geoserver)
 
 ## Tuto GitHub
+***
 #### Objectif du GitHub :
 GitHub est une plate-forme d'hébergement de code pour le contrôle de version et la collaboration entre membres d'une équipe.
 Cela nous permet de tous ensemble nous partager les modifications de données, de fichiers et de les mettre à jour sur un serveur, ici GitHub.
 
-## Installation
-***
-A little intro about the installation. 
+#### Installation
+Une petite intorduction pour l'installation. 
 ```
 $ git clone https://example.com
 $ cd ../path/to/the/file
@@ -25,6 +25,7 @@ $ npm start
 
 
 ## Tuto Geoserver
+***
 #### Objectif du Geoserver :
 Créer un entrepôt de données sous Geoserver dans l’objectif de diffuser les données précédemment 
 stockées dans la base de données Postgis via des flux (WMS, WFS, ...) via l’interface 
