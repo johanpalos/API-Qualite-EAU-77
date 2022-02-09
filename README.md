@@ -26,7 +26,7 @@ Et voici une commande pour copier un dépôt distant sur un serveur local.
 $ cd desktop
 $ git clone https://github.com/jojo2406/API-Qualite-EAU-77.git
 ```
-
+> This is how you do it.
 
 ## Tuto Geoserver
 ***
