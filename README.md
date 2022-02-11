@@ -7,6 +7,8 @@ ainsi que de son principal produit de dégradation, l’AMPA, dans les cours d�
 1. [Tuto GitHub](#tuto-github)
 2. [Tuto Geoserver](#tuto-geoserver)
 
+***
+
 ## Tuto GitHub
 #### Objectif de GitHub :
 GitHub est une plate-forme d'hébergement de code pour le contrôle de version et la collaboration entre membres d'une équipe.
