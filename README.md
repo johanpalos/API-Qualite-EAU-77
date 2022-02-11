@@ -4,6 +4,7 @@ visualiser sous forme de cartographie dynamique les résultats de mesure de pré
 ainsi que de son principal produit de dégradation, l’AMPA, dans les cours d’eau du département de Seine-et-Marne (77).
 
 ## Sommaire
+***
 1. [Tuto GitHub](#tuto-github)
 2. [Tuto Geoserver](#tuto-geoserver)
 
