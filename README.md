@@ -9,7 +9,7 @@ ainsi que de son principal produit de dégradation, l’AMPA, dans les cours d�
 
 ***
 
-## Tuto GitHub
+## 1. Tuto GitHub
 ### Objectif de GitHub :
 GitHub est une plate-forme d'hébergement de code pour le contrôle de version et la collaboration entre membres d'une équipe.
 Cela nous permet de tous ensemble nous partager les modifications de données, de fichiers et de les mettre à jour sur un serveur, ici GitHub.
@@ -26,7 +26,7 @@ $ cd desktop
 $ git clone https://github.com/johanpalos/API-Qualite-EAU-77.git
 ```
 
-## Tuto Geoserver
+## 2. Tuto Geoserver
 ### Objectif de Geoserver :
 Créer un entrepôt de données sous Geoserver dans l’objectif de diffuser les données précédemment 
 stockées dans la base de données Postgis via des flux (WMS, WFS, ...) via l’interface 
