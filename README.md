@@ -1,8 +1,8 @@
 # Projet API-Qualite-EAU-77
 <img src="https://static.data.gouv.fr/avatars/c7/8f3e7b4d5740b890684d16aa381697.png" width="200" height="100" /> <img src="https://hubeau.eaufrance.fr/sites/default/files/api/demo/piezo/images/logohubeau.svg" width="200" height="100" />
 
-Le Système d’information sur l’eau (site de Eau France), vise à mettre à disposition les données publiques sur l’eau. 
-Dans ce cadre, une plateforme (Hubeau) a été mise en place pour diffuser un certain nombre de jeux de données massives 
+Le Système d’information sur l’eau (site de [Eau France](https://www.eaufrance.fr/)), vise à mettre à disposition les données publiques sur l’eau. 
+Dans ce cadre, une plateforme ([Hubeau](https://hubeau.eaufrance.fr/page/api-qualite-cours-deau)) a été mise en place pour diffuser un certain nombre de jeux de données massives 
 via des API, permettant de requêter et télécharger des données, manuellement ou par programme.
 
 L'objectif du projet est d'exploiter les données de l’API Qualité des cours d’eau pour 
