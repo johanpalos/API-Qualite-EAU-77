@@ -23,7 +23,7 @@ Une petite intorduction pour l'installation de Git via ce lien ci-dessous.
 Et voici une commande pour copier un dépôt distant sur un serveur local.
 ```
 $ cd desktop
-$ git clone https://github.com/jojo2406/API-Qualite-EAU-77.git
+$ git clone https://github.com/johanpalos/API-Qualite-EAU-77.git
 ```
 
 ## Tuto Geoserver
