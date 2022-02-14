@@ -1,4 +1,6 @@
 # Projet API-Qualite-EAU-77
+![Hubeau](https://hubeau.eaufrance.fr/sites/default/files/api/demo/piezo/images/logohubeau.svg)
+![Eau-France](https://ades.eaufrance.fr/squelettes/images/logo-eaufrance.png)
 L'objectif du projet est d'exploiter les données de l’API Qualité des cours d’eau pour 
 visualiser sous forme de cartographie dynamique les résultats de mesure de présence d’un pesticide, le glyphosate, 
 ainsi que de son principal produit de dégradation, l’AMPA, dans les cours d’eau du département de Seine-et-Marne (77).
