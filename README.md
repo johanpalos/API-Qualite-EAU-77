@@ -1,5 +1,5 @@
 # Projet API-Qualite-EAU-77
-![Eau-France](https://static.data.gouv.fr/avatars/c7/8f3e7b4d5740b890684d16aa381697.png){ width: 200px; } ![Hubeau](https://hubeau.eaufrance.fr/sites/default/files/api/demo/piezo/images/logohubeau.svg){ width: 200px; }
+![Eau-France](https://static.data.gouv.fr/avatars/c7/8f3e7b4d5740b890684d16aa381697.png { width: 200px; }) ![Hubeau](https://hubeau.eaufrance.fr/sites/default/files/api/demo/piezo/images/logohubeau.svg { width: 200px; })
 
 L'objectif du projet est d'exploiter les données de l’API Qualité des cours d’eau pour 
 visualiser sous forme de cartographie dynamique les résultats de mesure de présence d’un pesticide, le glyphosate, 
