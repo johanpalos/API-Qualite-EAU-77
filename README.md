@@ -14,7 +14,7 @@ ainsi que de son principal produit de dégradation, l’AMPA, dans les cours d�
 GitHub est une plate-forme d'hébergement de code pour le contrôle de version et la collaboration entre membres d'une équipe.
 Cela nous permet de tous ensemble nous partager les modifications de données, de fichiers et de les mettre à jour sur un serveur, ici GitHub.
 Mais pour pouvoir pousser de nouvelles modifications de nos fichiers locaux sur des dépôts à distants sur GitHub, il est préférable d'utiliser une invite de commande
-grâce à linstallation rapide de Git(Bash) sur l'ordinateur.
+grâce à l'installation rapide de Git(Bash) sur l'ordinateur.
 
 ### Export des fichiers de GitHub via un serveur local par Git
 Une petite intorduction pour l'installation de Git via ce lien ci-dessous. 
@@ -32,4 +32,7 @@ Créer un entrepôt de données sous Geoserver dans l’objectif de diffuser les
 stockées dans la base de données Postgis via des flux (WMS, WFS, ...) via l’interface 
 d’administration web de Geoserver.
 
+### Installation Java et Geoserver
+* [Java 64 bits pour Windows](https://www.java.com/fr/download/) : Version 8
+* [Geoserver tar.gz](http://geoserver.org/release/maintain/) : Version 2.19.4
 
