@@ -42,3 +42,8 @@ d’administration web de Geoserver.
 * [Java 64 bits pour Windows](https://www.java.com/fr/download/) : Version 8
 * [Geoserver tar.gz](http://geoserver.org/release/maintain/) : Version 2.19.4
 
+Accès au Geoserver après installation
+```
+http://localhost:8080/geoserver
+```
+
