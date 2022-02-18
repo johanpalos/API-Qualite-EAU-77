@@ -3,7 +3,6 @@
    max-height: 350px;
    background-image: url("seineetmarne_2.jpg");
    background-size: 100% 600px;
-   -webkit-backdrop-filter: blur(100px);
    border: solid 2px;
    border-color: black;
    margin:center;
@@ -30,3 +29,11 @@
   }
 
 #map { height: 500px; }
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th, td{
+  padding: 10px 20px;
+  border: 1px solid #000;
+}
