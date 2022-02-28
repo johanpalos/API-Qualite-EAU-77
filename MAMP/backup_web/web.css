@@ -1,0 +1,39 @@
+#bloc-entête {
+   width: 99,5%;
+   max-height: 350px;
+   background-image: url("seineetmarne_2.jpg");
+   background-size: 100% 600px;
+   border: solid 2px;
+   border-color: black;
+   margin:center;
+  }
+
+  h1 {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 2px;
+    color: red;
+    background-color: none;
+    padding-top: 30px;
+    border-bottom: 2px solid;
+    margin:auto;
+    text-align: center;
+    width: 80%;
+    font-size: 2.5em;
+  }
+
+  .description {
+    font-family: 'Quicksand', sans-serif;
+    color: red;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+#map { height: 500px; }
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+th, td{
+  padding: 10px 20px;
+  border: 1px solid #000;
+}
