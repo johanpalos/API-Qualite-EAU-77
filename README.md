@@ -115,3 +115,8 @@ http://localhost:8080/geoserver
 La configuration est terminée ! Il ne reste plus qu'a ouvrir le fichier web.html fourni
 via un navigateur web.
 
+```
+$ CECILLON Jules
+$ PALOS Johan
+$ POTTELET Thomas
+```
