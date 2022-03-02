@@ -120,4 +120,5 @@ Développeurs :
 CECILLON Jules
 PALOS Johan
 POTTELET Thomas
+G2 2021-2022
 ```
