@@ -18,7 +18,7 @@ ainsi que de son principal produit de dégradation, l’AMPA, dans les cours d�
 
 ***
 
-# 1. GITHUB
+## 1. GITHUB
 GitHub est une plate-forme d'hébergement de code pour le contrôle de version et la collaboration entre membres d'une équipe.
 Cela nous permet de tous ensemble nous partager les modifications de données, de fichiers et de les mettre à jour sur un serveur, ici GitHub.
 Mais pour pouvoir pousser de nouvelles modifications de nos fichiers locaux sur des dépôts à distants sur GitHub, il est préférable d'utiliser une invite de commande
