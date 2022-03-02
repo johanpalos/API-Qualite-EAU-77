@@ -25,7 +25,10 @@ Mais pour pouvoir pousser de nouvelles modifications de nos fichiers locaux sur 
 grâce à l'installation rapide de Git(Bash) sur l'ordinateur.
 
 Export des fichiers de GitHub : pour exporter les fichiers sur GitHub sur votre bureau, un fichier .zip est disponible sur la plate-forme.
-![Alt text](/screenshots/github_zip.jpg?raw=true "Optional Title")
+<p align="center"
+![Alt text](/screenshots/github_zip.jpg?raw=true "Optional Title") 
+/p>
+
 
 ## 2. INSTALLATION PGADMIN
 - Installer pgadmin4 via le lien GitHub
