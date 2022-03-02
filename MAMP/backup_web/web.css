@@ -85,3 +85,42 @@ th, td {
   color: #555;
   font-size: 14px;
 }
+
+h6 {
+  text-align: center;
+}
+
+h8 {
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 2px;
+  color: black;
+  background-color: none;
+  padding-top: 30px;
+  text-align: center;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+p {
+  text-align: center;
+}
+
+h9 {
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 2px;
+  color: black;
+  background-color: none;
+  padding-top: 30px;
+  text-align: center;
+  width: 100%;
+  font-size: 0.85em;
+}
+
+#credits {
+  width: 75%;
+  max-height: 150px;
+  border: solid 1px;
+  border-color: black;
+  opacity: 0.33;
+  margin-left: 12.5%;
+ }

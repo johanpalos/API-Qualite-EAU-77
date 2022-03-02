@@ -49,9 +49,9 @@ legend.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info legend'),
         grades = [0.03, 0.85, 1.7, 3.86, 6.4];
 
-    div.innerHTML += '<h6>En µg/L</h6>';
+    div.innerHTML += '<h6>Résultat max<br>par station en µg/L</h6>';
     for (var i = 0; i < grades.length; i++) {
-        div.innerHTML += '<i style="background:' + getColor(grades[i] + 0.5) + '"></i> ' + grades[i] + (grades[i + 1] ? ' - ' + grades[i + 1] + '<br>' : ' - 210');
+        div.innerHTML += '<i style="background:' + getColor(grades[i] +0.5) + '"></i> ' + grades[i] + (grades[i + 1] ? ' - ' + grades[i + 1] + '<br>' : ' - 210');
     }
     return div;
 };
@@ -70,10 +70,10 @@ function style(feature) {
 }
    
 function getColor(d) {
-    return  d > 6.4  ? '#67000d' :
-        d > 3.86  ? '#d32020' :
-        d > 1.7  ? '#fb7050' :
-        d > 0.85  ? '#fcbea5' :
+    return  d > 6.4 ? '#67000d' :
+        d > 3.86 ? '#d32020' :
+        d > 1.7 ? '#fb7050' :
+        d > 0.85 ? '#fcbea5' :
         d > 0.03 ? '#ffefe6' :
         0;
 }
