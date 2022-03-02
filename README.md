@@ -42,7 +42,7 @@ Export des fichiers de GitHub : pour exporter les fichiers sur GitHub sur votre 
    * [Geoserver - Windows Installer](http://geoserver.org/release/stable/) : Version 2.20.2
 - Suivre le tuto d'installation Geoserver, et choisir la version de Java installée précédemment lorsque cela est demandé
 
-![Alt text](/screenshots/geoserver_java.jPG?raw=true "Geoserver_java")
+![Alt text](/screenshots/geoserver_java.JPG?raw=true "Geoserver_java")
 
 - Puis aller a l'adresse : C:\Program Files\GeoServer\webapps\geoserver\WEB-INF et remplacer le fichier "web.xml" par celui fourni dans la documentation
 
@@ -52,7 +52,7 @@ Export des fichiers de GitHub : pour exporter les fichiers sur GitHub sur votre 
 - Installer l'extension PostGIS : clic droit sur Extensions -> Create -> Extension -> taper "postgis" dans la barre de recherche.
 - Avant d'importer la base de données, clic droit sur "File" -> Preferences -> Binary Paths -> choisir le fichier "bin" sur le "PostgreSQL 14"
 
-![Alt text](/screenshots/binary_path.jPG?raw=true "Binary_path")
+![Alt text](/screenshots/binary_path.JPG?raw=true "Binary_path")
 
 - Importer la base de données : clic droit sur la database "stations_mesures" -> [Restore](#restore) -> Filename -> choisir le fichier fourni "stations_mesures.backup".
 
