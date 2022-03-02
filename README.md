@@ -50,9 +50,9 @@ Export des fichiers de GitHub : pour exporter les fichiers sur GitHub sur votre 
 - Lancer pgadmin4, se connecter avec les identifiants choisis lors de la configuration.
 - Créer une database (clic droit sur Databases -> Create -> Database) et la nommer "stations_mesures".
 - Installer l'extension PostGIS : clic droit sur Extensions -> Create -> Extension -> taper "postgis" dans la barre de recherche.
-- Avant d'importer la base de données, clic droit sur "File" -> Preferences -> Binary Paths -> choisir le fichier "bin" sur le "PostgreSQL 14"
+- Avant d'importer la base de données, clic droit sur "File" -> Preferences -> [Binary Paths](#binary_path) -> choisir le fichier "bin" sur le "PostgreSQL 14"
 
-![Alt text](/screenshots/binary_path.jPG?raw=true "Binary_path")
+![Alt text](/screenshots/binary_path.JPG?raw=true "Binary_path")
 
 - Importer la base de données : clic droit sur la database "stations_mesures" -> [Restore](#restore) -> Filename -> choisir le fichier fourni "stations_mesures.backup".
 
