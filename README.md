@@ -117,8 +117,8 @@ via un navigateur web.
 
 ```
 Développeurs :
-CECILLON Jules
-PALOS Johan
-POTTELET Thomas
+	CECILLON Jules
+	PALOS Johan
+	POTTELET Thomas
 G2 2021-2022
 ```
