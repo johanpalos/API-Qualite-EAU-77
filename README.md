@@ -10,15 +10,15 @@ visualiser sous forme de cartographie dynamique les résultats de mesure de pré
 ainsi que de son principal produit de dégradation, l’AMPA, dans les cours d’eau du département de Seine-et-Marne (77).
 
 ## Sommaire
-I. [GITHUB](#github)
-II. [INSTALLATION PGADMIN](#installation-pgadmin)
-III. [INSTALLATION GEOSERVER](#installation-geoserver)
-IV. [MISE EN PLACE DE LA BASE DE DONNEES](#mise-en-place-des-donnees)
-V. [MISE EN PLACE DU SERVEUR CARTOGRAPHIQUE](#mise-en-place-du-serveur-cartographique)
+1. [GITHUB](#github)
+2. [INSTALLATION PGADMIN](#installation-pgadmin)
+3. [INSTALLATION GEOSERVER](#installation-geoserver)
+4. [MISE EN PLACE DE LA BASE DE DONNEES](#mise-en-place-des-donnees)
+5. [MISE EN PLACE DU SERVEUR CARTOGRAPHIQUE](#mise-en-place-du-serveur-cartographique)
 
 ***
 
-## I. GITHUB
+## 1. GITHUB
 GitHub est une plate-forme d'hébergement de code pour le contrôle de version et la collaboration entre membres d'une équipe.
 Cela nous permet de tous ensemble nous partager les modifications de données, de fichiers et de les mettre à jour sur un serveur, ici GitHub.
 Mais pour pouvoir pousser de nouvelles modifications de nos fichiers locaux sur des dépôts à distants sur GitHub, il est préférable d'utiliser une invite de commande
@@ -26,20 +26,20 @@ grâce à l'installation rapide de Git(Bash) sur l'ordinateur.
 
 Export des fichiers de GitHub : pour exporter les fichiers sur GitHub sur votre bureau, un fichier .zip est disponible sur la plate-forme.
 
-## II. INSTALLATION PGADMIN
+## 2. INSTALLATION PGADMIN
 - Installer pgadmin4 via le lien GitHub
 - Dans le StartBuilder : installer deux applications :
 	- dans Database Servers, installer PostgreSQL (dernière version)
 	- dans Spatial Extensions, installer PostGIS (dernière version)
 
-## III. INSTALLATION GEOSERVER
+## 3. INSTALLATION GEOSERVER
 - Installer Geoserver et Java via les liens suivants:
    * [Java 64 bits pour Windows](https://www.java.com/fr/download/) : Version 8
    * [Geoserver - Windows Installer](http://geoserver.org/release/stable/) : Version 2.20.2
 - Suivre le tuto d'installation Geoserver, et choisir la version de Java installée précédemment lorsque cela est demandé
 - Aller a l'adresse : C:\Program Files\GeoServer\webapps\geoserver\WEB-INF et remplacer le fichier "web.html" par celui fourni dans la documentation
 
-## IV. MISE EN PLACE DE LA BASE DE DONNEES
+## 4. MISE EN PLACE DE LA BASE DE DONNEES
 - Lancer pgadmin4, se connecter avec les identifiants choisis lors de la configuration.
 - Créer une database 
 	- clic droit sur Databases 
@@ -58,7 +58,7 @@ Export des fichiers de GitHub : pour exporter les fichiers sur GitHub sur votre 
 	- Filename 
 	- choisir le fichier fourni "stations_mesures.backup".
 
-## V. MISE EN PLACE DU SERVEUR CARTOGRAPHIQUE
+## 5. MISE EN PLACE DU SERVEUR CARTOGRAPHIQUE
 - Lancer "Start Geoserver" via le menu Démarrer.
 - Ouvrir Geoserver en rentrant l'adresse suivante dans la barre de recherche d'un navigateur web, et se connecter:
 ```
