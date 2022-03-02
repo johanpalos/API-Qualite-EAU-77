@@ -29,8 +29,8 @@ Export des fichiers de GitHub : pour exporter les fichiers sur GitHub sur votre 
 ## 2. INSTALLATION PGADMIN
 - Installer pgadmin4 via le lien GitHub
 - Dans le StartBuilder : installer deux applications :
-	-> dans Database Servers, installer PostgreSQL (dernière version)
-	-> dans Spatial Extensions, installer PostGIS (dernière version)
+	- dans Database Servers, installer PostgreSQL (dernière version)
+	- dans Spatial Extensions, installer PostGIS (dernière version)
 
 ## 3. INSTALLATION GEOSERVER
 - Installer Geoserver et Java via les liens suivants:
