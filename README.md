@@ -1,8 +1,6 @@
 # Projet sur l'Exploitation cartographique de l’API Qualité des cours d’eau
 <img src="https://static.data.gouv.fr/avatars/c7/8f3e7b4d5740b890684d16aa381697.png" width="200" height="100" /> <img src="https://hubeau.eaufrance.fr/sites/default/files/api/demo/piezo/images/logohubeau.svg" width="200" height="100" />
 
-![Alt text](/web/seineetmarne_2.jpg?raw=true "Optional Title")
-
 Le Système d’information sur l’eau (site de [Eau France](https://www.eaufrance.fr/)), vise à mettre à disposition les données publiques sur l’eau. 
 Dans ce cadre, une plateforme ([Hubeau](https://hubeau.eaufrance.fr/page/api-qualite-cours-deau)) a été mise en place pour diffuser un certain nombre de jeux de données massives 
 via des API, permettant de requêter et télécharger des données, manuellement ou par programme.
@@ -27,6 +25,7 @@ Mais pour pouvoir pousser de nouvelles modifications de nos fichiers locaux sur 
 grâce à l'installation rapide de Git(Bash) sur l'ordinateur.
 
 Export des fichiers de GitHub : pour exporter les fichiers sur GitHub sur votre bureau, un fichier .zip est disponible sur la plate-forme.
+![Alt text](/screenshots/github_zip.jpg?raw=true "Optional Title")
 
 ## 2. INSTALLATION PGADMIN
 - Installer pgadmin4 via le lien GitHub
