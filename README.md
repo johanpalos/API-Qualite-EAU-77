@@ -1,6 +1,11 @@
 # Projet sur l'Exploitation cartographique de l’API Qualité des cours d’eau
 <img src="https://static.data.gouv.fr/avatars/c7/8f3e7b4d5740b890684d16aa381697.png" width="200" height="100" /> <img src="https://hubeau.eaufrance.fr/sites/default/files/api/demo/piezo/images/logohubeau.svg" width="200" height="100" />
 
+![Alt text](/web/seineetmarne_2.jpg?raw=true "Optional Title")
+
+
+Source: https://prograide.com/pregunta/3658/comment-ajouter-une-capture-decran-aux-readme-dans-un-dept-github
+
 Le Système d’information sur l’eau (site de [Eau France](https://www.eaufrance.fr/)), vise à mettre à disposition les données publiques sur l’eau. 
 Dans ce cadre, une plateforme ([Hubeau](https://hubeau.eaufrance.fr/page/api-qualite-cours-deau)) a été mise en place pour diffuser un certain nombre de jeux de données massives 
 via des API, permettant de requêter et télécharger des données, manuellement ou par programme.
