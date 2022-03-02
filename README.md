@@ -11,7 +11,8 @@ ainsi que de son principal produit de dégradation, l’AMPA, dans les cours d�
 
 ## Sommaire
 1. [Tuto GitHub](#tuto-github)
-2. [Tuto Geoserver](#tuto-geoserver)
+2. [Tuto pgAdmin](#tuto-pgadmin)
+3. [Tuto Geoserver](#tuto-geoserver)
 
 ***
 
@@ -22,17 +23,12 @@ Cela nous permet de tous ensemble nous partager les modifications de données, d
 Mais pour pouvoir pousser de nouvelles modifications de nos fichiers locaux sur des dépôts à distants sur GitHub, il est préférable d'utiliser une invite de commande
 grâce à l'installation rapide de Git(Bash) sur l'ordinateur.
 
-### Export des fichiers de GitHub via un serveur local par Git
-Une petite intorduction pour l'installation de Git via ce lien ci-dessous. 
-* [Git - Downloading Package](http://git-scm.com/downloads) : Version 2.35.1
+Export des fichiers de GitHub : pour exporter les fichiers sur GitHub sur votre bureau, un fichier .zip est disponible sur la plate-forme.
 
-Et voici une commande pour copier un dépôt distant sur un serveur local.
-```
-$ cd desktop
-$ git clone https://github.com/johanpalos/API-Qualite-EAU-77.git
-```
+## 2. Tuto pgAdmin
 
-## 2. Tuto Geoserver
+
+## 3. Tuto Geoserver
 ### Objectif de Geoserver :
 Créer un entrepôt de données sous Geoserver dans l’objectif de diffuser les données précédemment 
 stockées dans la base de données Postgis via des flux (WMS, WFS, ...) via l’interface 
@@ -40,9 +36,10 @@ d’administration web de Geoserver.
 
 ### Installation Java et Geoserver
 * [Java 64 bits pour Windows](https://www.java.com/fr/download/) : Version 8
-* [Geoserver tar.gz](http://geoserver.org/release/maintain/) : Version 2.19.4
+* [Geoserver - Windows Installer](http://geoserver.org/release/stable/) : Version 2.20.2
 
-Accès au Geoserver après installation
+Après avoir installé correctement Geoserver en suivant les précédentes instructions, il faut démarrer Geoserver avec votre application "Start Geoserver" sur votre PC.
+Pour accéder au Geoserver après installation, la ligne suivante est à taper dans la barre de recherche de votre navigateur.
 ```
 http://localhost:8080/geoserver
 ```
