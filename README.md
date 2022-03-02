@@ -40,7 +40,7 @@ Export des fichiers de GitHub : pour exporter les fichiers sur GitHub sur votre 
    * [Java 64 bits pour Windows](https://www.java.com/fr/download/) : Version 8
    * [Geoserver - Windows Installer](http://geoserver.org/release/stable/) : Version 2.20.2
 - Suivre le tuto d'installation Geoserver, et choisir la version de Java installée précédemment lorsque cela est demandé
-- Aller a l'adresse : C:\Program Files\GeoServer\webapps\geoserver\WEB-INF et remplacer le fichier "web.html" par celui fourni dans la documentation
+- Aller a l'adresse : C:\Program Files\GeoServer\webapps\geoserver\WEB-INF et remplacer le fichier "web.xml" par celui fourni dans la documentation
 
 ## 4. MISE EN PLACE DE LA BASE DE DONNEES
 - Lancer pgadmin4, se connecter avec les identifiants choisis lors de la configuration.
