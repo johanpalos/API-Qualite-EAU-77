@@ -116,9 +116,9 @@ La configuration est terminée ! Il ne reste plus qu'a ouvrir le fichier web.htm
 via un navigateur web.
 
 ```
-Développeurs :
-	CECILLON Jules
-	PALOS Johan
-	POTTELET Thomas
-G2 2021-2022
+	Développeurs :
+CECILLON Jules
+PALOS Johan
+POTTELET Thomas
+	G2 2021-2022
 ```
