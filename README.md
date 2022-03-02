@@ -26,7 +26,7 @@ grâce à l'installation rapide de Git(Bash) sur l'ordinateur.
 
 Export des fichiers de GitHub : pour exporter les fichiers sur GitHub sur votre bureau, un fichier .zip est disponible sur la plate-forme.
 
-![Alt text](/screenshots/github_zip.JPG?raw=true "Optional Title") 
+![Alt text](/screenshots/github_zip.JPG?raw=true "GitHub_zip") 
 
 
 ## 2. INSTALLATION PGADMIN
@@ -47,6 +47,8 @@ Export des fichiers de GitHub : pour exporter les fichiers sur GitHub sur votre 
 - Créer une database (clic droit sur Databases -> Create -> Database) et la nommer "stations_mesures".
 - Installer l'extension PostGIS : clic droit sur Extensions -> Create -> Extension -> taper "postgis" dans la barre de recherche.
 - Importer la base de données : clic droit sur la database "stations_mesures" -> Restore -> Filename -> choisir le fichier fourni "stations_mesures.backup".
+
+![Alt text](/screenshots/restore_sql.JPG?raw=true "Restore_sql") 
 
 ## 5. MISE EN PLACE DU SERVEUR CARTOGRAPHIQUE
 - Lancer "Start Geoserver" via le menu Démarrer.
