@@ -116,7 +116,8 @@ La configuration est terminée ! Il ne reste plus qu'a ouvrir le fichier web.htm
 via un navigateur web.
 
 ```
-$ CECILLON Jules
-$ PALOS Johan
-$ POTTELET Thomas
+Développeurs :
+CECILLON Jules
+PALOS Johan
+POTTELET Thomas
 ```
