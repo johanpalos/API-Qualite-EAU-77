@@ -51,7 +51,7 @@ legend.onAdd = function (map) {
 
     div.innerHTML += '<h6>En µg/L</h6>';
     for (var i = 0; i < grades.length; i++) {
-        div.innerHTML += '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' + grades[i] + (grades[i + 1] ? ' - ' + grades[i + 1] + '<br>' : ' - 210');
+        div.innerHTML += '<i style="background:' + getColor(grades[i] + 0.5) + '"></i> ' + grades[i] + (grades[i + 1] ? ' - ' + grades[i + 1] + '<br>' : ' - 210');
     }
     return div;
 };
