@@ -52,6 +52,9 @@ Export des fichiers de GitHub : pour exporter les fichiers sur GitHub sur votre 
 
 ## 5. MISE EN PLACE DU SERVEUR CARTOGRAPHIQUE
 - Lancer "Start Geoserver" via le menu Démarrer.
+
+![Alt text](/screenshots/start_geoserver.JPG?raw=true "Start_geoserver") 
+
 - Ouvrir Geoserver en rentrant l'adresse suivante dans la barre de recherche d'un navigateur web, et se connecter:
 ```
 http://localhost:8080/geoserver
