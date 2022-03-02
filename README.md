@@ -42,21 +42,21 @@ Export des fichiers de GitHub : pour exporter les fichiers sur GitHub sur votre 
 ## 4. MISE EN PLACE DE LA BASE DE DONNEES
 - Lancer pgadmin4, se connecter avec les identifiants choisis lors de la configuration.
 - Créer une database 
-	-> clic droit sur Databases 
-	-> Create 
-	-> Database et la  nommer "stations_mesures".
+	- clic droit sur Databases 
+	- Create 
+	- Database et la  nommer "stations_mesures".
 	
 - Installer l'extension PostGIS : 
-	-> clic droit sur Extensions 
-	-> Create 
-	-> Extension 
-	-> taper "postgis" dans la barre de recherche.
+	- clic droit sur Extensions 
+	- Create 
+	- Extension 
+	- taper "postgis" dans la barre de recherche.
 	
 - Importer la base de données : 
-	-> clic droit sur la database "stations_mesures" 
-	-> Restore 
-	-> Filename 
-	-> choisir le fichier fourni "stations_mesures.backup".
+	- clic droit sur la database "stations_mesures" 
+	- Restore 
+	- Filename 
+	- choisir le fichier fourni "stations_mesures.backup".
 
 ## 5. MISE EN PLACE DU SERVEUR CARTOGRAPHIQUE
 - Lancer "Start Geoserver" via le menu Démarrer.
@@ -66,51 +66,51 @@ http://localhost:8080/geoserver
 ```
 
 - Créer un espace de travail : 
-	-> Menu Données 
-	-> Espaces de Travail 
-	-> Ajouter un nouvel espace de travail, et le nommer "projet_qualite_eau" (bien respecter les noms)
+	- Menu Données 
+	- Espaces de Travail 
+	- Ajouter un nouvel espace de travail, et le nommer "projet_qualite_eau" (bien respecter les noms)
 	
 - Créer un entrepôt : 
-	-> Menu Données 
-	-> Entrepôts 
-	-> Ajouter un nouvel entrepôt 
-	-> POSTGIS.
-	-> Choisir l'espace de travail "projet_qualite_eau"
-	-> Nommer la source de données "stations_mesures"
-	-> Rentrer le nom de la database, également "stations_mesures"
-	-> Rentrer dans user et passwd les nom d'utilisateur et mot de passe pgadmin4.
-	-> Sauvegarder
+	- Menu Données 
+	- Entrepôts 
+	- Ajouter un nouvel entrepôt 
+	- POSTGIS.
+	- Choisir l'espace de travail "projet_qualite_eau"
+	- Nommer la source de données "stations_mesures"
+	- Rentrer le nom de la database, également "stations_mesures"
+	- Rentrer dans user et passwd les nom d'utilisateur et mot de passe pgadmin4.
+	- Sauvegarder
 	
 - Publier la couche de données : 
-	-> Menu Données 
-	-> Couches 
-	-> Ajouter une nouvelle couche.
-	-> Choisir l'entrepôt préalablement créé
-	-> Publier la couche "mesures_stations_V1", une page s'ouvre.
-	-> Se rendre dans la rubrique Emprises, et cliquer sur "Basées sur les données" et "Calculées sur les emprises natives".
-	-> Sauvegarder
+	- Menu Données 
+	- Couches 
+	- Ajouter une nouvelle couche.
+	- Choisir l'entrepôt préalablement créé
+	- Publier la couche "mesures_stations_V1", une page s'ouvre.
+	- Se rendre dans la rubrique Emprises, et cliquer sur "Basées sur les données" et "Calculées sur les emprises natives".
+	- Sauvegarder
 	
 - Création du style : 
-	-> Menu Données 
-	-> Styles 
-	-> Ajouter un nouveau style
-	-> Nommer le style "style_resultats", choisir l'espace de travail, laisser le format en SLD.
-	-> Dans Fichier de style 
-	-> Cliquer sur Parcourir 
-	-> Choisir le fichier "style_resultats.sld" fourni 
-	-> Cliquer sur charger
-	-> Sauvegarder
+	- Menu Données 
+	- Styles 
+	- Ajouter un nouveau style
+	- Nommer le style "style_resultats", choisir l'espace de travail, laisser le format en SLD.
+	- Dans Fichier de style 
+	- Cliquer sur Parcourir 
+	- Choisir le fichier "style_resultats.sld" fourni 
+	- Cliquer sur charger
+	- Sauvegarder
 	
 - Création de la couche stylisée :
-	-> Menu Données 
-	-> Agrégations de couches 
-	-> Ajouter un nouvel agrégat.
-	-> Nommer l'agrégat "mesures_stations_V1_style" (même chose dans titre et résumé), choisir le bon espace de travail.
-	-> Dans la rubrique Couches : 
-		-> Ajouter la couche "mesures_stations_V1"
-		-> Ajouter le Style Group "style_resultats"
-	-> Cliquer sur Générer l'emprise
-	-> Sauvegarder.
+	- Menu Données 
+	- Agrégations de couches 
+	- Ajouter un nouvel agrégat.
+	- Nommer l'agrégat "mesures_stations_V1_style" (même chose dans titre et résumé), choisir le bon espace de travail.
+	- Dans la rubrique Couches : 
+		- Ajouter la couche "mesures_stations_V1"
+		- Ajouter le Style Group "style_resultats"
+	- Cliquer sur Générer l'emprise
+	- Sauvegarder.
 
 La configuration est terminée ! Il ne reste plus qu'a ouvrir le fichier web.html fourni
 via un navigateur web.
