@@ -91,6 +91,7 @@ password: geoserver
 	-> Dans la rubrique Couches : Ajouter la couche "mesures_stations_V1", Ajouter le Style Group "style_resultats"
 	-> Cliquer sur Générer l'emprise
 	-> Sauvegarder.
+- Puis avant de lancer la page web, il n'y a plus qu'à Stop le geoserver et le Start de nouveau et se reconnecter sur le geoserver.
 
 La configuration est terminée ! Il ne reste plus qu'a ouvrir le fichier web.html fourni
 via un navigateur web.
