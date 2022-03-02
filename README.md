@@ -30,7 +30,7 @@ Export des fichiers de GitHub : pour exporter les fichiers sur GitHub sur votre 
 
 
 ## 2. INSTALLATION PGADMIN
-- Installer pgadmin4 via le lien GitHub
+- Installer pgadmin4 via le lien GitHub puis dans l'installation identifier un nom d'utilisateur = postgres et un mot de passe également postgres
    * [pgAdmin4](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) : Version 14.2
 - Dans le StartBuilder : installer deux applications :
 	- dans Database Servers, installer PostgreSQL (dernière version)
