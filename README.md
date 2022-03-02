@@ -31,6 +31,7 @@ Export des fichiers de GitHub : pour exporter les fichiers sur GitHub sur votre 
 
 ## 2. INSTALLATION PGADMIN
 - Installer pgadmin4 via le lien GitHub
+   * [pgAdmin4](https://www.postgresql.org/ftp/pgadmin/pgadmin4/v6.5/windows/) : Version6.5
 - Dans le StartBuilder : installer deux applications :
 	- dans Database Servers, installer PostgreSQL (dernière version)
 	- dans Spatial Extensions, installer PostGIS (dernière version)
