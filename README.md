@@ -63,9 +63,11 @@ Export des fichiers de GitHub : pour exporter les fichiers sur GitHub sur votre 
 
 ![Alt text](/screenshots/start_geoserver.JPG?raw=true "Start_geoserver") 
 
-- Ouvrir Geoserver en rentrant l'adresse suivante dans la barre de recherche d'un navigateur web, et se connecter:
+- Ouvrir Geoserver en rentrant l'adresse suivante dans la barre de recherche d'un navigateur web, et se connecter en tant qu'administrateur:
 ```
 http://localhost:8080/geoserver
+username: admin
+password: geoserver
 ```
 
 - Créer un espace de travail : Menu Données -> Espaces de Travail -> Ajouter un nouvel espace de travail, et le nommer "projet_qualite_eau" (bien respecter les noms)
