@@ -1,4 +1,4 @@
-var map = L.map('map').setView([48.64443263, 2.94391393], 9);
+var map = L.map('map').setView([48.64443263, 2.94391393], 9); //paramétrage de la carte : zoom et centrage//
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -7,23 +7,20 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     tileSize: 512,
     zoomOffset: -1,
     accessToken: 'pk.eyJ1IjoianVsZXNjZWNpbGxvbiIsImEiOiJja3pmZWQ1OWgyNW5iMzBvMW15dmtnODc5In0.ad-neM_5fNyJqRF2ayE7ZQ'
-}).addTo(map);
+}).addTo(map); 
 
 var wmsLayer = L.tileLayer.wms('https://wxs.ign.fr/cartes/geoportail/r/wms?', {
     layers: 'GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2'
-}).addTo(map);
+}).addTo(map); //import via flux WMS du fond de carte IGN//
 
 var stations = L.tileLayer.wms("http://localhost:8080/geoserver/wms", {
                         layers: 'projet_qualite_eau:mesures_stations_V1_style',
                         format: 'image/PNG',
                         transparent: true
-});
-
-
-stations.addTo(map);
+}); 
+stations.addTo(map); //import depuis Geoserver via flux WMS de la couche stylisée représentant la valeur maximale d'ampa ou glyphosate mesurée par station//
 
 var owsrootUrl = 'http://localhost:8080/geoserver/ows';
-
 var defaultParameters = {
     service : 'WFS',
     version : '1.1.0',
@@ -38,24 +35,20 @@ var URL = owsrootUrl + L.Util.getParamString(parameters);
 
 var Icon = L.icon({
     iconUrl: 'marker.png',
-
     iconSize:     [15, 15], // size of the icon
     iconAnchor:   [7.5, 7.5], // point of the icon which will correspond to marker's location
 });
 
 var legend = L.control({position: 'bottomright'});
-
 legend.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info legend'),
         grades = [0.03, 0.85, 1.7, 3.86, 6.4];
-
-    div.innerHTML += '<h6>Résultat max<br>par station en µg/L</h6>';
-    for (var i = 0; i < grades.length; i++) {
+        div.innerHTML += '<h6>Résultat max<br>par station en µg/L</h6>';
+        for (var i = 0; i < grades.length; i++) {
         div.innerHTML += '<i style="background:' + getColor(grades[i] +0.5) + '"></i> ' + grades[i] + (grades[i + 1] ? ' - ' + grades[i + 1] + '<br>' : ' - 210');
     }
     return div;
 };
-
 legend.addTo(map);
 
 function style(feature) {
