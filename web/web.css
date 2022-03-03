@@ -3,34 +3,34 @@ html{
 }
 
 #bloc-entête {
-   width: 99,5%;
-   max-height: 350px;
-   background-image: url("seineetmarne_2.jpg");
-   background-size: 100% 600px;
-   border: solid 2px;
-   border-color: black;
-   margin:center;
-  }
+  width: 99,5%;
+  max-height: 350px;
+  background-image: url("seineetmarne_2.jpg");
+  background-size: 100% 600px;
+  border: solid 2px;
+  border-color: black;
+  margin:center; 
+}
 
-  h1 {
-    font-family: 'Cinzel', serif;
-    letter-spacing: 2px;
-    color: red;
-    background-color: none;
-    padding-top: 30px;
-    border-bottom: 2px solid;
-    margin:auto;
-    text-align: center;
-    width: 80%;
-    font-size: 2.5em;
-  }
+h1 {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 2px;
+  color: red;
+  background-color: none;
+  padding-top: 30px;
+  border-bottom: 2px solid;
+  margin:auto;
+  text-align: center;
+  width: 80%;
+  font-size: 2.5em;
+}
 
-  .description {
-    font-family: 'Quicksand', sans-serif;
-    color: red;
-    text-align: center;
-    font-size: 1.5em;
-  }
+.description {
+  font-family: 'Quicksand', sans-serif;
+  color: red;
+  text-align: center;
+  font-size: 1.5em;
+}
 
 #map { 
   height: 600px; 
@@ -39,7 +39,6 @@ html{
   border: solid 2px;
   margin-bottom: 20px;
 }
-
 
 table, h2 {
   font-family: Arial, Helvetica, sans-serif;
@@ -51,7 +50,6 @@ table, h2 {
   background-color: white;
   text-align: center;
 }
-
 
 th, td {
   padding: 15px;
@@ -123,4 +121,4 @@ h9 {
   border-color: black;
   opacity: 0.33;
   margin-left: 12.5%;
- }
+}
