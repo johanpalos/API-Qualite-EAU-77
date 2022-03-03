@@ -40,7 +40,7 @@ Export des fichiers de GitHub : pour exporter les fichiers sur GitHub sur votre 
 - Installer Geoserver et Java via les liens suivants:
    * [Java 64 bits pour Windows](https://www.java.com/fr/download/) : Version 8
    * [Geoserver - Windows Installer](http://geoserver.org/release/stable/) : Version 2.20.2
-- Suivre le tuto d'installation Geoserver, et choisir la version de Java installée précédemment lorsque cela est demandé
+- Suivre le tuto d'installation Geoserver, et choisir la version de Java installée précédemment lorsque cela est demandé (adresse par défaut : C:\Program Files\Java
 
 ![Alt text](/screenshots/geoserver_java.JPG?raw=true "Geoserver_java")
 
