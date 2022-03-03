@@ -28,16 +28,15 @@ var defaultParameters = {
     typeName : 'projet_qualite_eau:mesures_stations_V1',
     outputFormat : 'text/javascript',
     srsName : 'EPSG:4326'
-};
-
+}; 
 var parameters = L.Util.extend(defaultParameters);
-var URL = owsrootUrl + L.Util.getParamString(parameters);
+var URL = owsrootUrl + L.Util.getParamString(parameters); //import de la couche "mesures_stations_V1" depuis Geoserver via un flux WFS//
 
 var Icon = L.icon({
     iconUrl: 'marker.png',
-    iconSize:     [15, 15], // size of the icon
-    iconAnchor:   [7.5, 7.5], // point of the icon which will correspond to marker's location
-});
+    iconSize:     [15, 15], 
+    iconAnchor:   [7.5, 7.5], 
+}); //paramétrage du marker : associaition à un .png transparent et taille//
 
 var legend = L.control({position: 'bottomright'});
 legend.onAdd = function (map) {
@@ -49,7 +48,7 @@ legend.onAdd = function (map) {
     }
     return div;
 };
-legend.addTo(map);
+legend.addTo(map); //création de la légende//
 
 function style(feature) {
     return {
@@ -61,15 +60,14 @@ function style(feature) {
         fillOpacity: 0.7,
     };
 }
-   
-function getColor(d) {
+   function getColor(d) {
     return  d > 6.4 ? '#67000d' :
         d > 3.86 ? '#d32020' :
         d > 1.7 ? '#fb7050' :
         d > 0.85 ? '#fcbea5' :
         d > 0.03 ? '#ffefe6' :
         0;
-}
+} //construction de la légende : différentes catégories et couleurs associées//
 
 
 let allStations = {};
@@ -78,7 +76,7 @@ var WFSLayer = null;
 var ajax = $.ajax({
     url : URL,
     dataType : 'jsonp',
-    jsonpCallback : 'parseResponse',
+    jsonpCallback : 'parseResponse', //transformation de la couche Geoserver en couche GeoJSON en utilisant AJAX, permettant ainsi de modifier la page web sans la recharger//
     success : function (response) {
        console.log(response);
        response.features.forEach(function(feature){
@@ -86,26 +84,24 @@ var ajax = $.ajax({
                 allStations[feature.properties.code_station] = {
                     geometry: feature.geometry.coordinates,
                     mesures: [],
-                };
+                }; //triage des données du GeoJSON : on stocke ici pour chaque station ses coordonées dans la variable geometry et on crée une variable "mesures"//
             }
             allStations[feature.properties.code_station].mesures.push({
                 station: feature.properties.code_station,
                 date_prelevement: feature.properties.date_prelevement,
                 libelle_parametre: feature.properties.libelle_parametre,
                 resultat : feature.properties.resultat,
-            });
+            }); // triage des données du GeoJSON : on injecte dans la variable "mesures" toutes les mesures (date, paramètre, résultat) pour chaque station//
        })
-       console.log(allStations);
-    
-
+       
        for(let cle in allStations) {
            let station = allStations[cle];
            /*console.log(station.geometry)*/
-           let x = station.geometry[0];
-           let y = station.geometry[1];
-           var marker = L.marker([y, x], {icon: Icon, station: station}).addTo(map).on('click', function(e) {
-            
-            document.getElementById('tableau').innerHTML="";
+           let x = station.geometry[0]; // on stocke dans la variable x les longitudes de chaque station//
+           let y = station.geometry[1]; // on stocke dans la variable y les longitudes de chaque station//
+           var marker = L.marker([y, x], {icon: Icon, station: station}).addTo(map).on('click', function(e) { //création des markers cliquables pour chaque couple x-y correspondant chacun ) 1 station. On associe aux markers la variable de style "Icon"//
+           
+            document.getElementById('tableau').innerHTML=""; // Création du tableau de données : on vide en premier lieu le tableau à chaque clic//
             
             let table = document.createElement('table');
             let thead = document.createElement('thead');
