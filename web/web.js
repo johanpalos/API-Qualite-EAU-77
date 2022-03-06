@@ -7,7 +7,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     tileSize: 512,
     zoomOffset: -1,
     accessToken: 'pk.eyJ1IjoianVsZXNjZWNpbGxvbiIsImEiOiJja3pmZWQ1OWgyNW5iMzBvMW15dmtnODc5In0.ad-neM_5fNyJqRF2ayE7ZQ'
-}).addTo(map); 
+}).addTo(map); //affichage d'une carte via le client Leaflet et grâce à un accessToken propre à chaque client
 
 var wmsLayer = L.tileLayer.wms('https://wxs.ign.fr/cartes/geoportail/r/wms?', {
     layers: 'GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2'
@@ -30,7 +30,7 @@ var defaultParameters = {
     typeName : 'projet_qualite_eau:mesures_stations_V1',
     outputFormat : 'text/javascript',
     srsName : 'EPSG:4326'
-}; 
+}; //paramètres du flux WFS
 var parameters = L.Util.extend(defaultParameters);
 var URL = owsrootUrl + L.Util.getParamString(parameters); //import de la couche "mesures_stations_V1" depuis Geoserver via un flux WFS
 
@@ -39,18 +39,18 @@ var Icon = L.icon({
     iconUrl: 'marker.png',
     iconSize:     [15, 15], 
     iconAnchor:   [7.5, 7.5], 
-}); //paramétrage du marker : associaition à un .png transparent et taille
+}); //paramétrage du marker : l'associaition à un .png transparent et la taille de ce marker et son emprise
 
 
 //Création de la légende
-var legend = L.control({position: 'bottomright'}); 
+var legend = L.control({position: 'bottomright'}); //position de la légende sur la carte
 legend.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'info legend'),
         grades = [0.03, 0.85, 1.7, 3.86, 6.4]; //intervalles des résultats max des stations
         div.innerHTML += '<h6>Résultat max<br>par station en µg/L</h6>';
         for (var i = 0; i < grades.length; i++) {
         div.innerHTML += '<i style="background:' + getColor(grades[i] +0.5) + '"></i> ' + grades[i] + (grades[i + 1] ? ' - ' + grades[i + 1] + '<br>' : ' - 210');
-    }//
+    }//boucle permettant d'associer les couleurs de la fonction getColor aux valeurs de la table grades
     return div;
 };
 legend.addTo(map); //ajout de la légende sur la carte
@@ -76,10 +76,9 @@ function getColor(d) {
 }; //association des couleurs de la carte à la légende selon les valeurs
 
 
+
 let allStations = {}; //création d'une bibliothèque vide
-
 var WFSLayer = null;
-
 var ajax = $.ajax({
     url : URL,
     dataType : 'jsonp',
@@ -141,7 +140,7 @@ var ajax = $.ajax({
                     const arr2 = [data.libelle_parametre];
                     const arr3 = [data.resultat];
 
-                    var length = arr.length; //longueur de la table arr
+                    var length = arr.length; //longueur de la table arr qui sera la même longueur sur arr2 et arr3
                     
                     //Création et ajout de données de la deuxième à la dernière ligne du tableau selon les nombres de mesures par station
                     for (var i = 0; i < length; i++) {
